@@ -1,0 +1,50 @@
+body{
+  margin: 0;
+  font-family: sans-serif;
+}
+
+nav {
+  background-color: blue;
+  display: flex;
+  justify-content: flex-end;
+  width: 15vw;
+}
+
+nav a{
+  border-left: 1em;
+  background-color: blue;
+  color: white;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  transition: background-color 0.4s;
+  font-size: 1em
+}
+
+nav a:hover {
+  background-color: blue;
+}
+
+nav a:last-child{
+  background: #5badf0;
+  color: white;
+  border-radius: 5px;
+  transition: 1s;
+}
+
+nav a:not(:last-child):hover{
+  background-color: pink;
+}
+
+header, section {
+  background-color: blue;
+  color: white;
+  overflow: auto;
+  padding: 0 0.5em;
+}
+section{
+  box-sizing: border-box;
+}
+
+main{
+  display: flex;
+}
